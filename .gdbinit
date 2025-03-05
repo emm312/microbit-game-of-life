@@ -5,9 +5,5 @@ monitor arm semihosting enable
 
 # (optional) Unmangle function names when debugging
 set print asm-demangle on
-# Load your program, breaks at entry
+monitor arm semihosting enable
 load
-# (optional) Add breakpoint at function
-break testing::main
-# Continue with execution
-continue

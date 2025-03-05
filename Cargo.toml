@@ -1,9 +1,11 @@
 [package]
-name = "testing"
+name = "microbit_game_of_life"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-panic-halt = "~0.2"
-microbit="~0.7"
 cortex-m-rt="~0.6"
+panic-semihosting = "0.6.0"
+cortex-m-semihosting = "0.5.0"
+embedded-hal = "1.0.0"
+microbit-v2 = "0.15.1"
